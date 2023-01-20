@@ -9,5 +9,13 @@
 6) type command: python manage.py makemigrations 
 7) type command: python manage.py migrate
 8) type command: python manage.py createsuperuser 
-9) insert username, email and passwor
-10) python manage.py runserver
+9) insert username, email and password
+10) type command: pip install djangorestframework
+11) add 'rest_framework' to your INSTALLED_APPS setting. like this: 
+
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
+
+12) python manage.py runserver
